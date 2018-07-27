@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Proxima Nova Regular.otf">
+            <string>ProximaNova-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SWSRadioButtonView" customModule="SwiftRadioButton" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="LGj-tk-xfD"/>
+                <outlet property="radioButton" destination="RW8-RP-bNI" id="EvR-6c-jyq"/>
+                <outlet property="radioImageView" destination="iyg-ur-OBp" id="gPc-sm-Kl1"/>
+                <outlet property="radioLabel" destination="B0t-Am-DXR" id="bBT-1m-ZXm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="30"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iyg-ur-OBp">
+                    <rect key="frame" x="0.0" y="7.5" width="15" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="15" id="gSe-u5-6XU"/>
+                        <constraint firstAttribute="height" constant="15" id="jYA-go-cQa"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0t-Am-DXR">
+                    <rect key="frame" x="20" y="0.0" width="80" height="30"/>
+                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RW8-RP-bNI">
+                    <rect key="frame" x="0.0" y="0.0" width="100" height="30"/>
+                    <connections>
+                        <action selector="radioButtonAction:" destination="-1" eventType="touchUpInside" id="w7C-pq-92B"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="B0t-Am-DXR" secondAttribute="bottom" id="DCJ-cd-MsC"/>
+                <constraint firstItem="iyg-ur-OBp" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Gib-yo-Dic"/>
+                <constraint firstItem="B0t-Am-DXR" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="IOf-ZR-1eS"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="RW8-RP-bNI" secondAttribute="trailing" id="ISG-r8-2qs"/>
+                <constraint firstItem="iyg-ur-OBp" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="iUL-Gt-7YH"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="B0t-Am-DXR" secondAttribute="trailing" id="mIS-4N-s2R"/>
+                <constraint firstItem="RW8-RP-bNI" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="oTP-Qw-ocF"/>
+                <constraint firstItem="RW8-RP-bNI" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="rlQ-NC-Nuf"/>
+                <constraint firstItem="B0t-Am-DXR" firstAttribute="leading" secondItem="iyg-ur-OBp" secondAttribute="trailing" constant="5" id="yny-6Y-hXP"/>
+                <constraint firstItem="RW8-RP-bNI" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="yvd-aa-jvO"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-124" y="-58"/>
+        </view>
+    </objects>
+</document>

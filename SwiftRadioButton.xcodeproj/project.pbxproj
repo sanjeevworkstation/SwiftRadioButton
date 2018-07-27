@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91B6F2F1210B831600EF41EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6F2F0210B831600EF41EA /* AppDelegate.swift */; };
+		91B6F2F3210B831600EF41EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6F2F2210B831600EF41EA /* ViewController.swift */; };
+		91B6F2F6210B831600EF41EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B6F2F4210B831600EF41EA /* Main.storyboard */; };
+		91B6F2F8210B831600EF41EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91B6F2F7210B831600EF41EA /* Assets.xcassets */; };
+		91B6F2FB210B831600EF41EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B6F2F9210B831600EF41EA /* LaunchScreen.storyboard */; };
+		91B6F305210B837900EF41EA /* SWSRadioButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6F303210B837900EF41EA /* SWSRadioButtonView.swift */; };
+		91B6F306210B837900EF41EA /* SWSRadioButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91B6F304210B837900EF41EA /* SWSRadioButtonView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		91B6F2ED210B831600EF41EA /* SwiftRadioButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRadioButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B6F2F0210B831600EF41EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91B6F2F2210B831600EF41EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91B6F2F5210B831600EF41EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91B6F2F7210B831600EF41EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91B6F2FA210B831600EF41EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91B6F2FC210B831600EF41EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91B6F303210B837900EF41EA /* SWSRadioButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWSRadioButtonView.swift; sourceTree = "<group>"; };
+		91B6F304210B837900EF41EA /* SWSRadioButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWSRadioButtonView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91B6F2EA210B831600EF41EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91B6F2E4210B831600EF41EA = {
+			isa = PBXGroup;
+			children = (
+				91B6F2EF210B831600EF41EA /* SwiftRadioButton */,
+				91B6F2EE210B831600EF41EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91B6F2EE210B831600EF41EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91B6F2ED210B831600EF41EA /* SwiftRadioButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91B6F2EF210B831600EF41EA /* SwiftRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				91B6F302210B835C00EF41EA /* RadioButtonView */,
+				91B6F2F0210B831600EF41EA /* AppDelegate.swift */,
+				91B6F2F2210B831600EF41EA /* ViewController.swift */,
+				91B6F2F4210B831600EF41EA /* Main.storyboard */,
+				91B6F2F7210B831600EF41EA /* Assets.xcassets */,
+				91B6F2F9210B831600EF41EA /* LaunchScreen.storyboard */,
+				91B6F2FC210B831600EF41EA /* Info.plist */,
+			);
+			path = SwiftRadioButton;
+			sourceTree = "<group>";
+		};
+		91B6F302210B835C00EF41EA /* RadioButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				91B6F303210B837900EF41EA /* SWSRadioButtonView.swift */,
+				91B6F304210B837900EF41EA /* SWSRadioButtonView.xib */,
+			);
+			path = RadioButtonView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91B6F2EC210B831600EF41EA /* SwiftRadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B6F2FF210B831600EF41EA /* Build configuration list for PBXNativeTarget "SwiftRadioButton" */;
+			buildPhases = (
+				91B6F2E9210B831600EF41EA /* Sources */,
+				91B6F2EA210B831600EF41EA /* Frameworks */,
+				91B6F2EB210B831600EF41EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftRadioButton;
+			productName = SwiftRadioButton;
+			productReference = 91B6F2ED210B831600EF41EA /* SwiftRadioButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91B6F2E5210B831600EF41EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SWS;
+				TargetAttributes = {
+					91B6F2EC210B831600EF41EA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 91B6F2E8210B831600EF41EA /* Build configuration list for PBXProject "SwiftRadioButton" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91B6F2E4210B831600EF41EA;
+			productRefGroup = 91B6F2EE210B831600EF41EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91B6F2EC210B831600EF41EA /* SwiftRadioButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91B6F2EB210B831600EF41EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B6F2FB210B831600EF41EA /* LaunchScreen.storyboard in Resources */,
+				91B6F306210B837900EF41EA /* SWSRadioButtonView.xib in Resources */,
+				91B6F2F8210B831600EF41EA /* Assets.xcassets in Resources */,
+				91B6F2F6210B831600EF41EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91B6F2E9210B831600EF41EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B6F2F3210B831600EF41EA /* ViewController.swift in Sources */,
+				91B6F2F1210B831600EF41EA /* AppDelegate.swift in Sources */,
+				91B6F305210B837900EF41EA /* SWSRadioButtonView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91B6F2F4210B831600EF41EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91B6F2F5210B831600EF41EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91B6F2F9210B831600EF41EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91B6F2FA210B831600EF41EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91B6F2FD210B831600EF41EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91B6F2FE210B831600EF41EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91B6F300210B831600EF41EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftRadioButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SWS.SwiftRadioButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91B6F301210B831600EF41EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftRadioButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SWS.SwiftRadioButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91B6F2E8210B831600EF41EA /* Build configuration list for PBXProject "SwiftRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B6F2FD210B831600EF41EA /* Debug */,
+				91B6F2FE210B831600EF41EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91B6F2FF210B831600EF41EA /* Build configuration list for PBXNativeTarget "SwiftRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B6F300210B831600EF41EA /* Debug */,
+				91B6F301210B831600EF41EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91B6F2E5210B831600EF41EA /* Project object */;
+}

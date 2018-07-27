@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftRadioButton" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LBv-mc-uCZ">
+                                <rect key="frame" x="20" y="120" width="335" height="30"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2US-ii-D1n" customClass="SWSRadioButtonView" customModule="SwiftRadioButton" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="30"/>
+                                        <color key="backgroundColor" red="0.912109375" green="0.0" blue="0.68669084820000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="gUd-yt-a31"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fHU-6X-Lll" customClass="SWSRadioButtonView" customModule="SwiftRadioButton" customModuleProvider="target">
+                                        <rect key="frame" x="127.5" y="0.0" width="80" height="30"/>
+                                        <color key="backgroundColor" red="0.912109375" green="0.0" blue="0.68669084820000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="geN-EF-O6a"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BoL-z5-nng" customClass="SWSRadioButtonView" customModule="SwiftRadioButton" customModuleProvider="target">
+                                        <rect key="frame" x="255" y="0.0" width="80" height="30"/>
+                                        <color key="backgroundColor" red="0.912109375" green="0.0" blue="0.68669084820000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="4OY-ac-w7z"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="BoL-z5-nng" secondAttribute="bottom" id="4dD-wp-Fte"/>
+                                    <constraint firstAttribute="bottom" secondItem="2US-ii-D1n" secondAttribute="bottom" id="AlP-NZ-0bR"/>
+                                    <constraint firstAttribute="trailing" secondItem="BoL-z5-nng" secondAttribute="trailing" id="Pya-P7-Sf0"/>
+                                    <constraint firstItem="fHU-6X-Lll" firstAttribute="top" secondItem="LBv-mc-uCZ" secondAttribute="top" id="SBb-fV-FAQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="fHU-6X-Lll" secondAttribute="bottom" id="UKp-wq-5YA"/>
+                                    <constraint firstItem="2US-ii-D1n" firstAttribute="leading" secondItem="LBv-mc-uCZ" secondAttribute="leading" id="ab0-SH-mKP"/>
+                                    <constraint firstItem="fHU-6X-Lll" firstAttribute="centerX" secondItem="LBv-mc-uCZ" secondAttribute="centerX" id="cDc-5Z-5ln"/>
+                                    <constraint firstItem="BoL-z5-nng" firstAttribute="top" secondItem="LBv-mc-uCZ" secondAttribute="top" id="ed0-Hp-54D"/>
+                                    <constraint firstItem="2US-ii-D1n" firstAttribute="top" secondItem="LBv-mc-uCZ" secondAttribute="top" id="vfK-Zb-fjq"/>
+                                    <constraint firstAttribute="height" constant="30" id="ylS-ns-bxn"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CJf-ux-Jn2">
+                                <rect key="frame" x="20" y="250" width="80" height="100"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0R9-jr-J2e" customClass="SWSRadioButtonView" customModule="SwiftRadioButton" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="30"/>
+                                        <color key="backgroundColor" red="0.0" green="0.4941176471" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="fMD-sq-tok"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oFQ-Kj-mKu" customClass="SWSRadioButtonView" customModule="SwiftRadioButton" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="35" width="80" height="30"/>
+                                        <color key="backgroundColor" red="0.0" green="0.4941176471" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="RKL-Al-oKH"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5mF-fs-Dqy" customClass="SWSRadioButtonView" customModule="SwiftRadioButton" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="70" width="80" height="30"/>
+                                        <color key="backgroundColor" red="0.0" green="0.4941176471" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="BfZ-dp-0xD"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="5mF-fs-Dqy" secondAttribute="bottom" id="2g4-wQ-Cz8"/>
+                                    <constraint firstItem="oFQ-Kj-mKu" firstAttribute="centerY" secondItem="CJf-ux-Jn2" secondAttribute="centerY" id="6i3-Pt-2kE"/>
+                                    <constraint firstItem="oFQ-Kj-mKu" firstAttribute="leading" secondItem="CJf-ux-Jn2" secondAttribute="leading" id="I3g-9S-22o"/>
+                                    <constraint firstAttribute="trailing" secondItem="5mF-fs-Dqy" secondAttribute="trailing" id="W5p-Ry-ALm"/>
+                                    <constraint firstItem="0R9-jr-J2e" firstAttribute="top" secondItem="CJf-ux-Jn2" secondAttribute="top" id="cKA-Cs-hdb"/>
+                                    <constraint firstItem="0R9-jr-J2e" firstAttribute="leading" secondItem="CJf-ux-Jn2" secondAttribute="leading" id="d0Q-Ko-lnL"/>
+                                    <constraint firstItem="5mF-fs-Dqy" firstAttribute="leading" secondItem="CJf-ux-Jn2" secondAttribute="leading" id="dLO-6z-4QL"/>
+                                    <constraint firstAttribute="trailing" secondItem="0R9-jr-J2e" secondAttribute="trailing" id="dQR-Bc-Bda"/>
+                                    <constraint firstAttribute="trailing" secondItem="oFQ-Kj-mKu" secondAttribute="trailing" id="eKO-22-PGm"/>
+                                    <constraint firstAttribute="height" constant="100" id="jcw-Jb-xU7"/>
+                                    <constraint firstAttribute="width" constant="80" id="nyP-mq-BiV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CJf-ux-Jn2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="BuT-By-4Uf"/>
+                            <constraint firstItem="LBv-mc-uCZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="VdG-Qk-ND0"/>
+                            <constraint firstItem="CJf-ux-Jn2" firstAttribute="top" secondItem="LBv-mc-uCZ" secondAttribute="bottom" constant="100" id="VfO-Xp-3RZ"/>
+                            <constraint firstItem="LBv-mc-uCZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="tqr-XF-MZZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LBv-mc-uCZ" secondAttribute="trailing" constant="20" id="zi1-CK-fVe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="radioButtonA" destination="0R9-jr-J2e" id="QOV-gc-nCU"/>
+                        <outlet property="radioButtonB" destination="oFQ-Kj-mKu" id="GBJ-0E-Xsr"/>
+                        <outlet property="radioButtonC" destination="5mF-fs-Dqy" id="0oq-YA-6Pr"/>
+                        <outlet property="radioButtonOne" destination="2US-ii-D1n" id="146-eC-TRC"/>
+                        <outlet property="radioButtonThree" destination="BoL-z5-nng" id="8fo-q1-8O2"/>
+                        <outlet property="radioButtonTwo" destination="fHU-6X-Lll" id="C7U-1K-tx1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
